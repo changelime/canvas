@@ -1,5 +1,5 @@
 System.config({
-  baseURL: "/",
+  baseURL: "/canvas",
   defaultJSExtensions: true,
   transpiler: "babel",
   babelOptions: {
