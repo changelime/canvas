@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>节点花园</title>
+	
+	<style type="text/css">
+		body
+		{
+			width:100vw;
+			height:100vh;
+			margin:0px;
+			padding:0px;
+			display:flex;
+			justify-content:center;
+			background-color:black;
+		}
+		#time
+		{
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			right: 0px;
+			bottom: 0px;
+			width: 100vw;
+			height: 100vh;
+			display:flex;
+			justify-content:center;
+			align-items: center;
+			color: black;
+			font-size: 9rem;
+			font-weight: lighter;
+		}
+		canvas
+		{
+			-webkit-filter: blur(5px);
+		}
+		#time>label
+		{
+			display: flex;
+			justify-content:center;
+			align-items: center;
+		}
+		#time>label>i
+		{
+			width: 9rem;
+			height: 9rem;
+			display: flex;
+			justify-content:center;
+			align-items: center;
+			background-color: rgba(255, 255, 255, 0.3);
+			margin: 0.2rem;
+			font-style: normal;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="canvas" width="800" height="800"></canvas>
+	<div id="time">
+		<label></label>
+	</div>
+	<script type="text/javascript" src="../../lib/jquery.min.js"></script>
+	<script type="text/javascript" src="../../lib/color.js"></script>
+	<script type="text/javascript" src="../../lib/util.js"></script>
+	<script type="text/javascript" src="../../lib/object.js"></script>
+	<script type="text/javascript" src="../../lib/ball.js"></script>
+	<script type="text/javascript" src="../../lib/line.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

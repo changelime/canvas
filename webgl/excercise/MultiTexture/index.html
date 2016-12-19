@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MultiTexture</title>
+	
+	<style type="text/css">
+		body
+		{
+			width:100vw;
+			height:100vh;
+			margin:0px;
+			padding:0px;
+			display:flex;
+			justify-content:center;
+			background-color:#bbb;
+		}
+		canvas
+		{
+			align-self:center;
+			outline:black 1px solid;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="canvas" width="800" height="800"></canvas>
+	<canvas id="tools" width="200" height="800"></canvas>
+	<script src="../../../jspm_packages/system.js"></script>
+	<script src="../../../config.js"></script>
+	<script>
+		System.import("./js/index.js");
+	</script>
+</body>
+</html>
